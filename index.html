@@ -9,11 +9,12 @@
 
     <main id="app">
 
+                <!-- Contenido dinámico -->
 
     </main>
 
     <nav class="c-nav">
-        <button onclick="mostrarLista()" class="c-lista">listas</button>
+        <button class="c-nav-item" onclick="General()">listas</button>
         <button onclick="mostrarFavoritos()">favoritos</button>
         <button onclick="mostrarAleatorios()">aleatorios</button>
         <button onclick="mostrarUsuarios()">usuarios</button>
@@ -30,7 +31,7 @@
     <script src="js/usuarios.js"></script>
 
     <script>
-        document.addEventListener("DOMContentLoader", General)
+        document.addEventListener("DOMContentLoaded", General)
     </script>
 </body>
 </html>
